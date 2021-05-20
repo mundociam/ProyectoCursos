@@ -1,0 +1,1 @@
+const jsUrl = 'https://rest-coursesapi.herokuapp.com/api/v1/courses/javascript'

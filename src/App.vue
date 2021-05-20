@@ -1,0 +1,21 @@
+<template>
+  <main>
+    <px-header />
+
+    <router-view class="container px-5 sm:px-20 py-20  justify-center" />
+  </main>
+</template>
+
+<script>
+
+import PxHeader from '@/components/PxHeader'
+import "tailwindcss/tailwind.css"
+
+export default {
+  name: 'app',
+  components: { PxHeader, }
+}
+</script>
+
+
+
